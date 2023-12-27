@@ -2197,3 +2197,9 @@
   overflow: visible;
   clip: auto;
 }
+.project-image img {
+  max-width: 100%; /* Ensure images don't exceed the width of their container */
+  height: auto; /* Maintain the aspect ratio of the images */
+  display: block; /* Remove extra space below images */
+  margin: 0 auto; /* Center the images horizontally within their container */
+}
